@@ -41,12 +41,12 @@ Game Boy Advance ist eine eingetragene Marke von Nintendo Co., Ltd.</translation
     <message>
         <location filename="../ArchiveInspector.ui" line="14"/>
         <source>Open in archive...</source>
-        <translation>In Archiv öffnen...</translation>
+        <translation>In Archiv öffnen …</translation>
     </message>
     <message>
         <location filename="../ArchiveInspector.ui" line="20"/>
         <source>Loading...</source>
-        <translation>Laden...</translation>
+        <translation>Laden …</translation>
     </message>
 </context>
 <context>
@@ -54,12 +54,12 @@ Game Boy Advance ist eine eingetragene Marke von Nintendo Co., Ltd.</translation
     <message>
         <location filename="../AssetTile.ui" line="41"/>
         <source>Tile #</source>
-        <translation>Tile #</translation>
+        <translation>Tile Nr.</translation>
     </message>
     <message>
         <location filename="../AssetTile.ui" line="65"/>
         <source>Palette #</source>
-        <translation>Palette #</translation>
+        <translation>Palette Nr.</translation>
     </message>
     <message>
         <location filename="../AssetTile.ui" line="86"/>
@@ -312,7 +312,7 @@ Game Boy Advance ist eine eingetragene Marke von Nintendo Co., Ltd.</translation
     <message>
         <location filename="../GIFView.ui" line="67"/>
         <source>Stop</source>
-        <translation>Stop</translation>
+        <translation>Stopp</translation>
     </message>
     <message>
         <location filename="../GIFView.ui" line="93"/>
@@ -4041,22 +4041,22 @@ Game Boy Advance ist eine eingetragene Marke von Nintendo Co., Ltd.</translation
     <message>
         <location filename="../Window.cpp" line="431"/>
         <source>Select e-Reader card images</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilder der Lesegerät-Karte auswählen</translation>
     </message>
     <message>
         <location filename="../Window.cpp" line="431"/>
         <source>Image file (*.png *.jpg *.jpeg)</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilddatei (*.png *.jpg *.jpeg)</translation>
     </message>
     <message>
         <location filename="../Window.cpp" line="432"/>
         <source>Conversion finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertierung abgeschlossen</translation>
     </message>
     <message>
         <location filename="../Window.cpp" line="470"/>
         <source>%1 of %2 e-Reader cards converted successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 von %2 Lesegerät-Karten erfolgreich konvertiert.</translation>
     </message>
     <message>
         <location filename="../Window.cpp" line="483"/>
@@ -4186,7 +4186,7 @@ Game Boy Advance ist eine eingetragene Marke von Nintendo Co., Ltd.</translation
     <message>
         <location filename="../Window.cpp" line="1175"/>
         <source>Convert e-Reader card image to raw...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lesegerät-Kartenbild in Rohdaten umwandeln …</translation>
     </message>
     <message>
         <location filename="../Window.cpp" line="1179"/>
@@ -5794,7 +5794,7 @@ Game Boy Advance ist eine eingetragene Marke von Nintendo Co., Ltd.</translation
     <message>
         <location filename="../VideoView.ui" line="56"/>
         <source>Stop</source>
-        <translation>Stop</translation>
+        <translation>Stopp</translation>
     </message>
     <message>
         <location filename="../VideoView.ui" line="69"/>
