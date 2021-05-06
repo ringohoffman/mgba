@@ -15,6 +15,8 @@ CXX_GUARD_START
 #include <mgba-util/table.h>
 #include <mgba-util/vector.h>
 
+#include <mgba/emerald/emerald.h>
+
 enum mCheatType {
 	CHEAT_ASSIGN,
 	CHEAT_ASSIGN_INDIRECT,
@@ -95,6 +97,9 @@ struct mCheatDevice {
 	bool autosave;
 	bool buttonDown;
 };
+
+void cheatMain(struct mCheatDevice* device);
+
 
 struct VFile;
 

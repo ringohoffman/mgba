@@ -6,6 +6,8 @@
 /build
 /build-*
 /.vs
+/game
+/.vscode
 
 *.a
 *.dylib

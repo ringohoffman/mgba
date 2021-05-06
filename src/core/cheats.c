@@ -164,6 +164,10 @@ static void _unpatchROM(struct mCheatDevice* device, struct mCheatSet* cheats) {
 	}
 }
 
+void cheatMain(struct mCheatDevice* device) {
+	func1();
+}
+
 static void mCheatDeviceInit(void*, struct mCPUComponent*);
 static void mCheatDeviceDeinit(struct mCPUComponent*);
 

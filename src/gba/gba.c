@@ -827,6 +827,9 @@ void GBAFrameStarted(struct GBA* gba) {
 		gba->audio.mixer->vblank(gba->audio.mixer);
 	}
 
+	struct mCheatDevice* device = (struct mCheatDevice*) gba->cpu->components[CPU_COMPONENT_CHEAT_DEVICE];
+	cheatMain(device);
+
 	size_t c;
 	for (c = 0; c < mCoreCallbacksListSize(&gba->coreCallbacks); ++c) {
 		struct mCoreCallbacks* callbacks = mCoreCallbacksListGetPointer(&gba->coreCallbacks, c);
